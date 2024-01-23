@@ -1,12 +1,142 @@
-<<html>
+<!DOCTYPE html>
+
+<html>
   <head>
-    <link href="./styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Patryk Grund IT</title>
   </head>
 
-<body>
-  <h1>Patryk Grund</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <body>
+    <!--  header -->
+    <div class="header">
+      <div class="logo container">
+        <img class="logo" src="./images/it-2.svg" />
+      </div>
+      <a href="#" style="text-decoration: none; color: black;"><h1>Patryk Grund IT</h1></a>
+      <nav class="navbar">
+        <ul class="breadcrumbs">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
+    <!-- mission  -->
+    <section class="mission">
+      <div class="mission-container">
+        <h2 class="motto">
+          Creating the perfect first impression of your business.
+        </h2>
+        <h4>Patryk Grund IT</h4>
+      </div>
+    </section>
+    <!-- About  -->
+    <section id="about">
+      <h1 style="text-align: center;">ABOUT ME </h1>
+      <div class="about-container">
+        <div>
+          <img class="profile" src="./images/patrykpic.png" />
+        </div>
+        <div class="about-text">
+          <h2>Patryk Grund</h2>
+          <h3>Frontend Developer</h3>
+          <h4>I will create a website for you.</h4><br>Check my CV <a href="./files/cv-patryk.pdf" target="_blank">here</a>.</h4>
+        </div>
+        
+    </section>
+    <section id="skills">
+      
+      <div class="skillscontainer">
+        <h1>SKILLS:</h1>
+        <ul >
+          <li><img class="tech-pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"> HTML5</li>
+          <li> <img class="tech-pic" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg">CSS</li>
+          <li> <img class="tech-pic" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg"> JavaScript</li>
+          <li><img class="tech-pic" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg">  ReactJS</li>
+          <li><img class="tech-pic" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"> Git</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Projects  -->
+    <section id="projects">
+      <h1 class="myprojects">MY PROJECTS</h1>
+      <div class="projects-container">
+        <div class="project-card">
+          <img
+            src="./images/Zrzut ekranu 2024-01-23 o 10.10.38.png"
+            class="project-pic"
+          />
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/Zrzut ekranu 2024-01-23 o 10.10.38.png"
+            class="project-pic"
+          />
+        </div>
+        <div class="project-card">
+          <img
+            src="./images/Zrzut ekranu 2024-01-23 o 10.10.38.png"
+            class="project-pic"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <h2>CONTACT ME HERE:  </h2>
+      <div class="contact-container">
+        <div><a href="https://github.com/Pattrick97" target="_blank">
+          <img
+            class="contact-pic"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+          />
+        </a>
+          
+         
+        </div>
+          <div>
+            <a href="https://www.linkedin.com/in/patryk-grund-1a5485187/" target="_blank">
+              <img
+              class="contact-pic"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
+            />
+            </a>
+           
+           
+          </div>
+        <div>
+          <a href="mailto:grund.patryk@gmail.com">
+            <img
+        class="contact-pic-mail"
+        src="https://t4.ftcdn.net/jpg/05/37/41/55/360_F_537415557_jzA3aAlyzbflHCKgG2pTV12dWGF56TiH.jpg"
+      />
+          </a>
+        
+      
+    </div>
+      </div>
+    </section> 
+    
+    <footer>
+      
+      <p>&copy; All rights reserved to Patryk Grund IT 2024</p>
+    </footer>
+  </body>
 </html>
